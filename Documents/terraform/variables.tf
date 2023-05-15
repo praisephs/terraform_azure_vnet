@@ -12,7 +12,7 @@ variable "location" {
   description = "The Azure Region where the Resource Group should exist"
 }
 
-# Tags information
+# Tags informations
 variable "tags" {
   type = map(string)
   default = {
